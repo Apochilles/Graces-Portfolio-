@@ -1,0 +1,70 @@
+/* Determines Font properties in the content of the Contact Page   */
+
+.container-contact h1 {
+  font-size: 400%;
+  font-family: "Tinos", sans-serif;
+  color: #ebbab9;
+  font-weight: 500;
+  text-align: center;
+  margin: 0.75%;
+}
+
+.container-contact h1 a {
+  color: #ebbab9;
+}
+
+header h1 {
+  color: white;
+}
+.box-two-contact p {
+  text-decoration: none;
+}
+
+/* Keeps links in the Contact page pink regardless of whether they have been clicked or not */
+
+.container-contact a:visited {
+  color: #ebbab9;
+  text-decoration: none;
+}
+
+/* Determines paragraph font size in the aboutme page   */
+
+.container-about p {
+  font-size: 150%;
+}
+
+/* Determines box-two a links don't change color   */
+
+.box-two a {
+  text-decoration: none;
+}
+
+/* Determines about me page header and paragraph font properties   */
+
+.about h1 {
+  font-size: 10px;
+  font-family: "Tinos", sans-serif;
+  margin: 30px;
+}
+
+.about p {
+  font-family: "Tinos", sans-serif;
+  font-size: 5px;
+}
+
+/* Determines grid-box-one header and paragraph font properties in the index page   */
+
+.grid-box-one h1 {
+  font-size: 30px;
+  height: 20%;
+  font-family: "Tinos", sans-serif;
+  padding: 12%;
+  color: white;
+}
+.grid-box-one p {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Tinos", sans-serif;
+  padding: 12%;
+  color: white;
+}

@@ -1,0 +1,30 @@
+/* Acts as individual frames for Portfolio and Blog posts */
+.card {
+
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 60%;
+  }
+  
+  /* Give images properties inside cards for Portfolio and Blog posts */
+  
+  .card .img {
+    width: 100%;
+    padding: 20px; 
+  }
+  
+  /* Profile picture proportions in About Me */
+  
+  .profilepic {
+    width: 50%;
+    margin: 5%;
+    float:right;
+  
+  }
+  
+  /* Add a card effect for articles */
+  img {
+    width: inherit;
+  }
+  
+  
