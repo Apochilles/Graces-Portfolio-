@@ -33,6 +33,13 @@ footer {
   margin-left: 20%;
 }
 
+.navbar-logo,
+.navbar-logo-two,
+.navbar-logo-three {
+  font-size: 25px;
+}
+
+
 header,
 footer,
 article,
@@ -50,10 +57,9 @@ article {
 div#box {
   width: 30%;
   align-self: center;
-  display: flex; 
+  display: flex;
   flex-direction: row;
-  margin-bottom: 2%
-;
+  margin-bottom: 2%;
 }
 
 div#image {
@@ -63,6 +69,11 @@ div#image {
   align-content: center;
   padding-top: 5%;
   width: 100%;
+  height: auto;
+}
+
+div#logo img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -177,5 +188,36 @@ a:visited {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 70%;
+  }
+  a {
+    font-size: 90%;
+    margin: 3%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  body {
+    font-size: 40%;
+  }
+  a {
+    font-size: 80%;
+    margin: 3%;
+  }
+  article.div.slidershow-container.mySlides.fade img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div#logo img {
+    max-width: 50%;
+    height: auto;
   }
 }
