@@ -39,7 +39,6 @@ footer {
   font-size: 25px;
 }
 
-
 header,
 footer,
 article,
@@ -72,9 +71,16 @@ div#image {
   height: auto;
 }
 
-div#logo img {
-  max-width: 100%;
+div#logo {
+  max-width: 10%;
   height: auto;
+  display: flex;
+}
+
+div#logo img {
+  max-width: 70%;
+  height: auto;
+  object-fit: contain;
 }
 
 a:link,
@@ -89,9 +95,20 @@ a:visited {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 20%;
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+div.mySlides.fade {
+  overflow: hidden;
+}
+div.mySlides.fade img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 /* Hide the images by default */
