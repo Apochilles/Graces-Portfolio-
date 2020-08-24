@@ -1,0 +1,46 @@
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 70%;
+  }
+  a {
+    font-size: 90%;
+    margin: 3%;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  body {
+    font-size: 40%;
+  }
+  a {
+    font-size: 80%;
+    margin: 3%;
+  }
+  article.div.slidershow-container.mySlides.fade img {
+    max-width: 50%;
+    height: auto;
+  }
+  span.dot {
+    height: 7px;
+    width: 7px;
+  }
+  .navbar-logo,
+  .navbar-logo-two,
+  .navbar-logo-three {
+    font-size: 10px;
+  }
+  div#logo img {
+    max-width: 50%;
+    height: auto;
+  }
+  div.text {
+    font-size: 80%;
+  }
+  a.next,
+  a.prev {
+    font-size: 98%;
+  }
+  div.numbertext {
+    font-size: 50%;
+  }
+}
