@@ -33,6 +33,10 @@ footer {
   margin-left: 20%;
 }
 
+div#collapse {
+  display: none;
+}
+
 .navbar-logo,
 .navbar-logo-two,
 .navbar-logo-three {
