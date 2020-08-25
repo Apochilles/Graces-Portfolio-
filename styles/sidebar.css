@@ -1,31 +1,21 @@
-/* The sidebar menu */
-.sidebar {
+div#top-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer {
+  margin-left: 20%;
+}
+
+div#mySidebar.sidebar {
   display: none;
-  height: 100%; /* 100% Full-height */
-  z-index: 1; /* Stay on top */
-  top: 0;
-  left: 0;
-  background-color: white; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second 
 }
 
-.sidebar a {
-  padding: 8px 8px 8px 20px;
-  text-decoration: none;
-  font-size: 8px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-  font-family: Tinos;
-}
-
-When you mouse over the navigation links,
 change their color .sidebar a:hover {
   color: #f1f1f1;
 }
-
 
 .sidebar .closebtn {
   position: absolute;
@@ -45,6 +35,56 @@ change their color .sidebar a:hover {
 
 .openbtn:hover {
   background-color: #444;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 5px;
+  border: none;
+  background-color: white;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+change their color .sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 8px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  font-family: Tinos;
+}
+.sidebar {
+  display: none;
+  height: 100%; /* 100% Full-height */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second 
 }
 
 

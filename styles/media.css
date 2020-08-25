@@ -9,25 +9,30 @@
 }
 
 @media only screen and (max-width: 667px) {
+  body header {
+    margin-left: 125%;
+  }
 
   header {
     font-size: 5%;
     flex-direction: row;
-    align-items: center;
-    height: 30%;
+    /* align-items: center; */
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
   }
 
-  header a {
-    display: none;
+  header {
+    margin-right: 50%;
   }
 
   div#logo {
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
     display: flex;
   }
   div#logo img {
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     object-fit: contain;
   }
@@ -45,6 +50,7 @@
   a {
     font-size: 80%;
   }
+
   article.div.slidershow-container.mySlides.fade img {
     max-width: 50%;
     height: auto;
@@ -76,16 +82,39 @@
     align-items: flex-start;
   }
 
+  /* div#logo { */
+  /* display: none; */
+  /* } */
+
   div#main {
-    width: 60%;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
   }
   article {
-    text-align: center;
+    width: 80%;
+    margin-right: 60px;
   }
 
-  div#mySidebar.sidebar {
-    width: 15%;
-    display: flex;
-    justify-items: flex-start;
+  div#mysidebar {
+    width: 20%;
   }
+  div#mySidebar.sidebar {
+    width: 20%;
+    display: flex;
+    font-size: 4px;
+  }
+
+  div#mySidebar.sidebar a {
+    font-size: 100%;
+  }
+}
+
+.top-bar a {
+  display: none;
+}
+
+footer {
+  margin-right: 20%;
+  position: relative;
 }
