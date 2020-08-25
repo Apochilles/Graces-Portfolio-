@@ -13,6 +13,10 @@
     margin-left: 60%;
   }
 
+  body header {
+    margin-left: 70%;
+  }
+
   header {
     font-size: 5%;
     flex-direction: row;
@@ -21,9 +25,6 @@
     height: 20%;
     justify-content: space-around;
   }
-
-  /* header {
-  } */
 
   div#logo {
     max-width: 40%;
@@ -124,10 +125,6 @@
 
 sidebar a {
   display: block;
-}
-
-body header {
-  margin-left: 70%;
 }
 
 Navbar__Link-toggle {

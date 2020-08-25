@@ -12,16 +12,6 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  function classToggle() {
-    const navs = document.querySelectorAll(".Navbar__Items");
-
-    navs.forEach((nav) => nav.classList.toggle("Navbar__ToggleShow"));
-  }
-
-  document
-    .querySelector(".Navbar__Link-toggle")
-    .addEventListener("click", classToggle);
-
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");

@@ -103,6 +103,10 @@ button.openbtn {
   display: none;
 }
 
-sidebar a {
+article div#mySidebar.sidebar {
   display: none;
+}
+
+body header {
+  margin-left: 25%;
 }
