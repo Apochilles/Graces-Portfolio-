@@ -30,7 +30,10 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
-  margin-left: 20%;
+}
+
+header {
+  margin-left: 21%;
 }
 
 div#collapse {
@@ -54,7 +57,6 @@ aside {
 article {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
 div#box {
@@ -76,7 +78,7 @@ div#image {
 }
 
 div#logo {
-  max-width: 10%;
+  max-width: 12%;
   height: auto;
   display: flex;
 }
@@ -95,4 +97,12 @@ a:visited {
 
 * {
   box-sizing: border-box;
+}
+
+button.openbtn {
+  display: none;
+}
+
+sidebar a {
+  display: none;
 }

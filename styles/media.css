@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 667px) {
   body header {
-    margin-left: 125%;
+    margin-left: 60%;
   }
 
   header {
@@ -22,9 +22,8 @@
     justify-content: space-around;
   }
 
-  header {
-    margin-right: 50%;
-  }
+  /* header {
+  } */
 
   div#logo {
     max-width: 40%;
@@ -40,7 +39,7 @@
   body {
     display: flex;
     align-items: center;
-    font-size: 50%;
+    font-size: 70%;
     justify-content: center;
     align-items: space;
   }
@@ -82,42 +81,55 @@
     align-items: flex-start;
   }
 
-  /* div#logo { */
-  /* display: none; */
-  /* } */
-
   div#main {
     width: 100%;
     height: 100%;
     flex-direction: row;
   }
+
+  body article {
+    justify-items: center;
+  }
   article {
-    width: 100%;
+    width: 80%;
   }
 
   div#mysidebar {
     width: 20%;
   }
   div#mySidebar.sidebar {
-    width: 20%;
+    width: 30%;
     display: flex;
-    font-size: 8px;
+    font-size: 10px;
+    position: absolute;
   }
 
   div#mySidebar.sidebar a {
     font-size: 100%;
   }
+
+  .top-bar a {
+    display: none;
+  }
+
+  footer {
+    margin-right: 20%;
+    position: relative;
+  }
+  button.openbtn {
+    display: block;
+    font-size: 16px;
+  }
 }
 
-.top-bar a {
+sidebar a {
+  display: block;
+}
+
+body header {
+  margin-left: 70%;
+}
+
+Navbar__Link-toggle {
   display: none;
-}
-
-footer {
-  margin-right: 20%;
-  position: relative;
-}
-
-button.openbtn {
-  font-size: 15px;
 }

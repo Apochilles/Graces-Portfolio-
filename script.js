@@ -12,6 +12,16 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+  function classToggle() {
+    const navs = document.querySelectorAll(".Navbar__Items");
+
+    navs.forEach((nav) => nav.classList.toggle("Navbar__ToggleShow"));
+  }
+
+  document
+    .querySelector(".Navbar__Link-toggle")
+    .addEventListener("click", classToggle);
+
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -30,7 +40,6 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
-
 
 function myFunction() {
   var x = document.getElementById("mySidebar");
