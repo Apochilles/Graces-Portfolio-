@@ -78,7 +78,7 @@ change their color .sidebar a:hover {
 }
 .sidebar {
   display: none;
-  height: 100%; /* 100% Full-height */
+  height: 30%; /* 100% Full-height */
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;

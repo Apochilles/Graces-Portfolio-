@@ -9,6 +9,19 @@
 }
 
 @media only screen and (max-width: 667px) {
+  .sidebar {
+    display: none;
+    height: 30%; /* 100% Full-height */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s;
+    padding: 0%;
+  }
+
   body header {
     margin-left: 60%;
   }
@@ -97,7 +110,8 @@
     justify-items: center;
   }
   article {
-    width: 80%;
+    width: 100%;
+    padding-top: 50px;
   }
 
   article-zine {
@@ -110,9 +124,8 @@
     width: 20%;
   }
   div#mySidebar.sidebar {
-    width: 30%;
     display: flex;
-    font-size: 10px;
+    font-size: 8px;
     position: absolute;
     flex-direction: row;
   }
