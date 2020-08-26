@@ -19,7 +19,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s;
-    padding: 0%;
+    padding: 15px;
   }
 
   body header {
@@ -32,7 +32,7 @@
     width: 100%;
     height: 2.5rem;
     margin-left: 0%;
-    height: 30%;
+    height: 25%;
   }
 
   div#logo {
@@ -118,10 +118,10 @@
   }
   div#mySidebar.sidebar {
     display: flex;
-    font-size: 8px;
+    font-size: 7px;
     position: absolute;
     flex-direction: row;
-    height: 30%;
+    height: 25%;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
   }
@@ -160,3 +160,7 @@ Navbar__Link-toggle {
 /* .sidebar-zine {
   margin-left: 10%;
 } */
+
+article#home-page {
+  margin-top: 150px;
+}
