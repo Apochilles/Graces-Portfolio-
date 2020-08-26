@@ -64,6 +64,7 @@ aside {
 article {
   display: flex;
   flex-direction: column;
+  height: 1000px;
 }
 
 div#box {
@@ -130,4 +131,10 @@ article-zine div#mySidebar.sidebar-zine {
 article-zine {
   width: 70%;
   height: 0%;
+  text-align: center;
 }
+
+div.slideshow-container-zine div.mySlides.fade img {
+  max-width: 80%;
+}
+
