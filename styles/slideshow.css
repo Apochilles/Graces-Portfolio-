@@ -13,10 +13,29 @@ img {
 }
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
+slideshow-container-zine {
+  width: 70%;
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow-container {
+  width: 20%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+div.mySlides.fade {
+  overflow: hidden;
+}
+div.mySlides.fade img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 /* Next & previous buttons */
