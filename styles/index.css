@@ -2,10 +2,15 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   flex-direction: column;
   margin: 0;
+  justify-content: center;
+  align-content: center;
 }
 #main {
   display: flex;
@@ -30,6 +35,7 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
+  border: 1px solid black;
 }
 
 header {
@@ -124,5 +130,4 @@ article-zine div#mySidebar.sidebar-zine {
 article-zine {
   width: 70%;
   height: 0%;
-  margin-left: 16%;
 }
