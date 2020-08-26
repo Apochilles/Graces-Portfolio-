@@ -3,6 +3,15 @@
 }
 
 /* Slideshow container */
+
+slideshow-container-zine {
+  width: 70%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .slideshow-container {
   width: 20%;
   position: relative;

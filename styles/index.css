@@ -34,6 +34,7 @@ footer {
 
 header {
   margin-left: 21%;
+  font-weight: bold;
 }
 
 div#collapse {
@@ -108,5 +109,20 @@ article div#mySidebar.sidebar {
 }
 
 body header {
-  margin-left: 25%;
+  margin-left: 20%;
+}
+
+article-zine div#mySidebar.sidebar a,
+article div#mySidebar.sidebar a {
+  font-weight: bold;
+}
+
+article-zine div#mySidebar.sidebar-zine {
+  display: none;
+}
+
+article-zine {
+  width: 70%;
+  height: 0%;
+  margin-left: 16%;
 }

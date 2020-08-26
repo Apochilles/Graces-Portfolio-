@@ -95,6 +95,12 @@
     width: 80%;
   }
 
+  article-zine {
+    width: 80%;
+    height: 60%;
+    margin-left: 0%;
+  }
+
   div#mysidebar {
     width: 20%;
   }
@@ -103,6 +109,7 @@
     display: flex;
     font-size: 10px;
     position: absolute;
+    flex-direction: row;
   }
 
   div#mySidebar.sidebar a {
@@ -129,4 +136,8 @@ sidebar a {
 
 Navbar__Link-toggle {
   display: none;
+}
+
+.sidebar-zine {
+  margin-left: 10%;
 }
