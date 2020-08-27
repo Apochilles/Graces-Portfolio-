@@ -21,6 +21,10 @@ slideshow-container-zine {
   justify-content: center;
 }
 
+div.slideshow-container-zine div.mySlides.fade img {
+  max-width: 45%;
+}
+
 .slideshow-container {
   width: 20%;
   position: relative;
@@ -42,12 +46,10 @@ div.mySlides.fade img {
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -58,7 +60,7 @@ div.mySlides.fade img {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 10px 0 0 10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -141,4 +143,10 @@ div.mySlides.fade img {
 
 #fuck-sake {
   display: block;
+}
+
+div.nav-box {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
 }

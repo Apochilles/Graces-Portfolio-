@@ -35,7 +35,6 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
-  border: 1px solid black;
 }
 
 header {
@@ -137,4 +136,3 @@ article-zine {
 div.slideshow-container-zine div.mySlides.fade img {
   max-width: 80%;
 }
-
