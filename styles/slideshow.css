@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Verdana, sans-serif;
   margin: 0;
 }
 .mySlides {
@@ -27,6 +26,7 @@ div.slideshow-container-zine div.mySlides.fade img {
 
 .slideshow-container {
   width: 20%;
+  height: 50%;
   position: relative;
   margin: auto;
   display: flex;
