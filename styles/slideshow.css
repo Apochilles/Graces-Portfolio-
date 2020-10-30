@@ -18,6 +18,7 @@ slideshow-container-zine {
   margin: auto;
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 div.slideshow-container-zine div.mySlides.fade img {

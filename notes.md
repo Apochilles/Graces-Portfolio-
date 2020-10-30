@@ -11,4 +11,4 @@
 - The zine - 75% current size - all bars on the same screen. More obvious buttons.
 Arrow buttons? Where have they
 
--
+- 2048 and 1365

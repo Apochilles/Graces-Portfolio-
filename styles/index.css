@@ -168,6 +168,7 @@ div#footer-index {
 div#footer-portfolio {
   width: auto;
   height: 60%;
+  padding-right: 500px;
 }
 
 div#about-box {
@@ -208,7 +209,7 @@ div#portfolio-box {
   padding-top: 300px;
   width: 60%;
   align-content: center;
-  padding-left: 1000px;
+  padding-left: 650px;
 }
 
 .item1 {
@@ -243,13 +244,14 @@ div#portfolio-box {
 }
 
 contact-footer {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
-  padding-top: 30%;
+  padding-top: 20%;
+  padding-left: 30%
 }
 
 div#contact-box {
@@ -285,3 +287,37 @@ div#work-box {
   display: flex;
   height: 200px;
 }
+
+div#cv {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+  
+  div#cv img {
+  height: auto;
+  width: 40%;
+  }
+  
+  div#cv_sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-self: flex-end;
+  }
+  
+  div#cv_sidebar img {
+  height: auto;
+  width: 60%;
+  }
+  
+  div#cv_body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
