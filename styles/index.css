@@ -338,5 +338,24 @@ work-publication-footer {
 }
 
 div#text-box {
-  padding-left: 10%;
+  padding-left: 20%;
+}
+
+div#logo-work img {
+  width: 20%;
+}
+
+contact-footer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  padding-top: 25%;
+  padding-left: 33%;
+}
+
+div#logo-contact img {
+  width: 30%;
 }
