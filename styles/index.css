@@ -96,6 +96,17 @@ div#logo {
 }
 
 div#logo img {
+  max-width: 55%;
+  height: auto;
+  object-fit: contain;
+}
+div#logo img {
+  max-width: 55%;
+  height: auto;
+  object-fit: contain;
+}
+
+div#about-logo img {
   max-width: 70%;
   height: auto;
   object-fit: contain;
@@ -163,6 +174,11 @@ div#footer-about {
 div#footer-index {
   width: auto;
   height: 60%;
+  padding-left: 10%;
+}
+div#logo img {
+  width: auto;
+  height: 60%;
 }
 
 div#footer-portfolio {
@@ -175,7 +191,7 @@ div#about-box {
   width: 100%;
   height: 100%;
   display: flex;
-  padding-left: 500px;
+  padding-left: 600px;
 }
 
 div#cv-box {
@@ -206,7 +222,7 @@ div#portfolio-box {
   grid-column-gap: 400px;
   grid-row-gap: 150px;
   padding: 10px;
-  padding-top: 300px;
+  padding-top: 200px;
   width: 60%;
   align-content: center;
   padding-left: 650px;
@@ -243,17 +259,6 @@ div#portfolio-box {
   text-align: center;
 }
 
-contact-footer {
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  text-decoration: none;
-  padding-top: 20%;
-  padding-left: 30%
-}
-
 div#contact-box {
   padding-left: 45%;
   padding-top: 11%;
@@ -282,10 +287,10 @@ work-footer {
 
 div#work-box {
   display: flex;
-  align-items: center;
-  justify-items: center;
+  align-items: space-between;
   display: flex;
   height: 200px;
+  flex-direction: column;
 }
 
 div#cv {
@@ -294,30 +299,44 @@ div#cv {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  }
-  
-  div#cv img {
+}
+
+div#cv img {
   height: auto;
   width: 40%;
-  }
-  
-  div#cv_sidebar {
+}
+
+div#cv_sidebar {
   height: 100%;
   display: flex;
   flex-direction: column;
   width: 20%;
   align-self: flex-end;
-  }
-  
-  div#cv_sidebar img {
+}
+
+div#cv_sidebar img {
   height: auto;
   width: 60%;
-  }
-  
-  div#cv_body {
+}
+
+div#cv_body {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-items: center;
+}
+work-publication-footer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding-left: 5%;
+}
+
+div#text-box {
+  padding-left: 10%;
+}
