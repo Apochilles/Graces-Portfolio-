@@ -8,6 +8,44 @@
   }
 }
 
+@media only screen and (max-width: 1440px) {
+  div#portfolio-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 400px;
+    grid-row-gap: 150px;
+    padding: 10px;
+    padding-top: 200px;
+    width: 60%;
+    align-content: center;
+    padding-left: 470px;
+  }
+  div#about-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 500px;
+  }
+  div#about-logo {
+    max-width: 20%;
+    height: auto;
+    display: flex;
+    padding-top: 200px;
+  }
+  div#box {
+    width: 30%;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+  }
+
+  div#cv_body {
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .sidebar {
     display: none;
@@ -303,7 +341,3 @@ sidebar a {
 Navbar__Link-toggle {
   display: none;
 }
-
-/* .sidebar-zine {
-  margin-left: 10%;
-} */
