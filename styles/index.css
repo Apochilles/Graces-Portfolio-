@@ -89,8 +89,14 @@ div#image {
   height: auto;
 }
 
-div#logo {
+div#logo-header {
   max-width: 30%;
+  height: auto;
+  display: none;
+}
+
+div#logo-footer {
+  max-width: 20%;
   height: auto;
   display: flex;
 }
