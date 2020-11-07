@@ -86,8 +86,8 @@
   }
 
   div#logo-header {
-    max-width: 80%;
-    height: auto;
+    max-width: 70%;
+    height: 50%;
     display: flex;
   }
 
@@ -176,14 +176,14 @@
     display: flex !important;
     flex-direction: column;
     height: 25%;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
     text-align: center;
-    padding: 50px;
   }
 
   div#mySidebar.sidebar a {
     font-size: 125%;
+    padding: 8px 8px 8px 8px;
+    height: 100px;
+    width: 100px;
   }
 
   .top-bar a {
@@ -208,11 +208,17 @@
 }
 
 @media only screen and (max-width: 667px) {
+  div#logo-header {
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+  }
+
   div#portfolio-box {
     height: 20%;
     width: 20%;
     padding-left: 0px;
-    padding-right: 250px;
+    padding-right: 220px;
     padding-top: 150px;
     grid-column-gap: 100px;
     grid-row-gap: 100px;
@@ -224,7 +230,7 @@
   }
 
   div#logo-work img {
-    width: 400%;
+    width: 450%;
   }
 
   article#home-page {
@@ -232,7 +238,24 @@
   }
 
   div#mySidebar.sidebar a {
-    font-size: 85%;
+    font-size: 100%;
+  }
+
+  div#mySidebar.sidebar {
+    display: flex !important;
+    flex-direction: column;
+    height: 25%;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  div#mySidebar.sidebar a {
+    font-size: 100%;
+    padding: 8px 8px 8px 8px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
   }
 }
 
