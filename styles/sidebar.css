@@ -3,11 +3,16 @@ div#top-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  font-size: 130%;
+}
+
+div#top-bar a {
+  padding-left: 130px;
+  
 }
 
 footer {
   margin-left: 20%;
-  
 }
 
 div#mySidebar.sidebar {

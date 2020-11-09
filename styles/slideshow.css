@@ -12,17 +12,17 @@ img {
 }
 
 /* Slideshow container */
-slideshow-container-zine {
-  width: 70%;
-  position: relative;
-  margin: auto;
+div.slideshow-container-zine {
+  width: 50%;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 div.slideshow-container-zine div.mySlides.fade img {
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .slideshow-container {
@@ -36,6 +36,7 @@ div.slideshow-container-zine div.mySlides.fade img {
 
 div.mySlides.fade {
   overflow: hidden;
+  display: flex;
 }
 div.mySlides.fade img {
   max-width: 100%;
