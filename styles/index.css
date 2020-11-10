@@ -391,7 +391,7 @@ div#contact-box {
 }
 
 div#contact-box strong {
-  font-family: Athelas-Bold;
+  font-family: BaskervilleItalicBT;
   padding-right: 45px;
 }
 
@@ -430,6 +430,7 @@ div#cv {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: 5%
 }
 
 div#cv img {
@@ -448,6 +449,7 @@ div#cv_sidebar {
 div#cv_sidebar img {
   height: auto;
   width: 70%;
+  margin-left: 40%;
 }
 
 div#cv_body {

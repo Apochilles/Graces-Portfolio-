@@ -11,6 +11,10 @@
     padding-left: 300px;
   }
 
+  div#cv_sidebar img {
+    margin-left: 25%;
+  }
+
   div.slideshow-container-zine-indelicates {
     margin-top: 120px;
   }
@@ -66,6 +70,11 @@
     padding-right: 350px;
     padding-top: 150px;
     grid-column-gap: 275px;
+  }
+
+  div#cv_body {
+    width: 100%;
+    font-size: 125%;
   }
 
   div#cv {
@@ -264,16 +273,31 @@
   div#box {
     width: 35%;
   }
+  div#paragraph-one {
+    width: 100%;
+  }
+
+  div#cv body {
+    flex-direction: column;
+  }
 
   div#cv {
-    width: 80%;
-    height: 70%;
-    font-size: 60%;
+    width: 120%;
+    height: 100%;
+    font-size: 85%;
   }
 
   div#cv_sidebar {
-    width: 50%;
-    align-self: flex-end;
+    height: 40%;
+    display: none;
+  }
+
+  div#cv_body {
+    padding-left: 0%;
+  }
+
+  div#cv_sidebar {
+    width: 30%;
   }
 
   div#about-box {
