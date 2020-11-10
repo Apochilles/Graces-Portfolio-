@@ -54,6 +54,7 @@ header {
   justify-content: space-evenly;
   text-decoration: none;
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 header {
@@ -72,11 +73,12 @@ div#collapse {
 .navbar-logo-two,
 .navbar-logo-three {
   font-size: 25px;
-  width: 18%;
+  width: 20%;
+  height: 20%;
 }
 
 .navbar-logo img {
-  width: 100%;
+  width: 150%;
   height: auto;
 }
 
@@ -188,7 +190,7 @@ footer {
 
 div#home-box {
   height: 120px;
-  width: 95%;
+  width: 100%;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -198,7 +200,7 @@ div#home-box img {
 }
 div#home-box-two {
   height: 120px;
-  width: 65%;
+  width: 75%;
   display: flex;
   align-content: center;
   justify-content: flex-end;
@@ -209,7 +211,7 @@ div#home-box-two img {
 }
 div#home-box-three {
   height: 120px;
-  width: 40%;
+  width: 25%;
   display: flex;
   align-content: center;
   justify-content: flex-end;
@@ -416,7 +418,7 @@ div#cv {
 
 div#cv img {
   height: auto;
-  width: 40%;
+  width: 60%;
 }
 
 div#cv_sidebar {
@@ -429,7 +431,7 @@ div#cv_sidebar {
 
 div#cv_sidebar img {
   height: auto;
-  width: 40%;
+  width: 70%;
 }
 
 div#cv_body {

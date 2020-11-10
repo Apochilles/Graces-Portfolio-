@@ -14,15 +14,40 @@ img {
 /* Slideshow container */
 div.slideshow-container-zine {
   width: 50%;
-  height: 100%;
+  height: 80%;
   display: flex;
   align-items: space-evenly;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
+  padding-top: 5%;
+}
+div.slideshow-container-zine-indelicates {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+div.slideshow-container-zine-folio {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+div.slideshow-container-zine-indelicates div.mySlides.fade img {
+  max-width: 100%;
 }
 
 div.slideshow-container-zine div.mySlides.fade img {
   max-width: 35%;
+  padding: 1%;
 }
 
 .slideshow-container {
