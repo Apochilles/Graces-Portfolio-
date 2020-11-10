@@ -387,8 +387,7 @@ div#portfolio-box a strong {
 }
 
 div#contact-box {
-  padding-left: 37%;
-  padding-top: 7%;
+  padding-left: 45%;
 }
 
 div#contact-box strong {
@@ -485,17 +484,32 @@ div#logo-work img {
 }
 
 contact-footer {
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
-  padding-top: 15%;
-  padding-left: 33%;
+  padding-top: 8%;
+  padding-left: 45%;
+}
+
+contact-footer a {
+  font-size: 80%;
+}
+
+div#logo-contact {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
 }
 
 div#logo-contact img {
-  width: 30%;
-  margin-top: 60%;
+  width: 50%;
+  margin-top: 40%;
+  margin-left: 37%;
+}
+
+div#about-block {
+  width: 20%;
 }
