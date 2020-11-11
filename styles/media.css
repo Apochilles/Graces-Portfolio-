@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1600px) {
   div#portfolio-box {
     display: grid;
     grid-template-columns: auto auto auto;
