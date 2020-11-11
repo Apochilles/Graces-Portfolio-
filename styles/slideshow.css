@@ -45,12 +45,16 @@ div.slideshow-container-zine-publication {
   position: relative;
   margin: auto;
   display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
+  justify-content: center;
+  align-content: center;
 }
 
 div.slideshow-container-zine-publication div.mySlides.fade img {
-  max-width: 100%;
+  /* max-width: 70%; */
+  box-shadow: 5px 5px 5px 10px #888888;
+  justify-items: center;
+  align-items: center;
+  border: 10px black;
 }
 
 div.slideshow-container-zine-indelicates div.mySlides.fade img {
