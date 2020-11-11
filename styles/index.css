@@ -95,6 +95,12 @@ div#collapse {
   height: auto;
 }
 
+.navbar-logo-publication img {
+  width: 25%;
+  height: auto;
+}
+
+
 header,
 article,
 nav,
@@ -430,7 +436,7 @@ div#cv {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 5%
+  margin-left: 5%;
 }
 
 div#cv img {
@@ -461,7 +467,7 @@ div#cv_body {
   justify-items: center;
 }
 work-publication-footer {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -507,7 +513,7 @@ div#logo-contact {
 }
 
 div#logo-contact img {
-  width: 50%;
+  width: 44%;
   margin-top: 40%;
   margin-left: 37%;
 }
