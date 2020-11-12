@@ -315,7 +315,7 @@ div#portfolio-box {
 div#portfolio-box a strong {
   font-family: BaskervilleItalicBT;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .item1 {
@@ -459,8 +459,8 @@ div#cv_sidebar img {
 }
 
 div#cv_body {
-  height: 80%;
-  width: 80%;
+  height: 95%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;

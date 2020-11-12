@@ -3,7 +3,7 @@ div#top-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 130%;
+  font-size: 120%;
 }
 
 div#top-bar a {
