@@ -28,7 +28,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: BaskervilleItalicBT;
-  font-size: 90%;
+  font-size: 80%;
   align-items: center;
 }
 #main {
@@ -459,8 +459,8 @@ div#cv_sidebar img {
 }
 
 div#cv_body {
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
