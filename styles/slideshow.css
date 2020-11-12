@@ -51,7 +51,7 @@ div.slideshow-container-zine-publication {
 
 div.slideshow-container-zine-publication div.mySlides.fade img {
   /* max-width: 70%; */
-  box-shadow: 5px 5px 5px 10px #888888;
+  /* box-shadow: 5px 5px 5px 10px #888888; */
   justify-items: center;
   align-items: center;
   border: 10px black;
