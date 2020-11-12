@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1280px) {
   div#portfolio-box {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -9,19 +9,6 @@
     width: 80%;
     align-content: center;
     padding-left: 300px;
-  }
-
-  work-publication-footer {
-    width: 60%;
-    height: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    text-decoration: none;
-    padding-bottom: 0%;
-    font-size: 70%;
-    /* padding-left: 5%; */
   }
 
   div#cv_sidebar img {
