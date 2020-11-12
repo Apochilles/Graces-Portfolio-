@@ -4,11 +4,11 @@ div#top-bar {
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 120%;
+  padding-right: 14%;
 }
 
 div#top-bar a {
   padding-left: 130px;
-  
 }
 
 footer {
