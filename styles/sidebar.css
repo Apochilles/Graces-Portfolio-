@@ -1,4 +1,4 @@
-div#top-bar {
+div#Top-Bar {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7,7 +7,7 @@ div#top-bar {
   padding-right: 14%;
 }
 
-div#top-bar a {
+div#Top-Bar a {
   padding-left: 130px;
 }
 
@@ -15,7 +15,7 @@ footer {
   margin-left: 20%;
 }
 
-div#mySidebar.sidebar {
+div#Sidebar.sidebar {
   display: none;
 }
 

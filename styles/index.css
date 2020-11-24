@@ -31,18 +31,18 @@ body {
   font-size: 80%;
   align-items: center;
 }
-#main {
+#open {
   display: flex;
   flex: 1;
 }
-#main > article {
+#open > article {
   flex: 1;
 }
-#main > nav,
-#main > aside {
+#open > nav,
+#open > aside {
   flex: 0 0 20vw;
 }
-#main > nav {
+#open > nav {
   order: -1;
 }
 header {
@@ -99,7 +99,6 @@ div#collapse {
   width: 25%;
   height: auto;
 }
-
 
 header,
 article,
@@ -163,7 +162,7 @@ div#about-logo img {
 
 a:link,
 a:visited {
-  color: black;
+  /* color: black; */
   text-decoration: none;
 }
 
@@ -175,7 +174,7 @@ button.openbtn {
   display: none;
 }
 
-article div#mySidebar.sidebar {
+article div#Sidebar.sidebar {
   display: none;
 }
 
@@ -183,12 +182,12 @@ body header {
   margin-left: 30%;
 }
 
-article-zine div#mySidebar.sidebar a,
-article div#mySidebar.sidebar a {
+article-zine div#Sidebar.sidebar a,
+article div#Sidebar.sidebar a {
   font-weight: bold;
 }
 
-article-zine div#mySidebar.sidebar-zine {
+article-zine div#Sidebar.sidebar-zine {
   display: none;
 }
 
@@ -206,17 +205,17 @@ footer {
   align-content: flex-start;
 }
 
-div#home-box {
+div#Image-Container-Tag {
   height: 120px;
   width: 100%;
   display: flex;
   align-content: center;
   justify-content: center;
 }
-div#home-box img {
+div#Image-Container-Tag img {
   height: 90%;
 }
-div#home-box-two {
+div#Image-Container-Pearls {
   height: 120px;
   width: 75%;
   display: flex;
@@ -224,17 +223,17 @@ div#home-box-two {
   justify-content: flex-end;
 }
 
-div#home-box-two img {
+div#Image-Container-Pearls img {
   height: 90%;
 }
-div#home-box-three {
+div#Image-Container-Shoes {
   height: 120px;
   width: 25%;
   display: flex;
   align-content: center;
   justify-content: flex-end;
 }
-div#home-box-three img {
+div#Image-Container-Shoes img {
   height: 90%;
 }
 
@@ -262,9 +261,28 @@ div#footer-portfolio {
 
 div#about-box {
   height: 100%;
-  width: 200%;
+  width: 50%;
   display: flex;
   flex-direction: column;
+}
+
+div#about-block {
+  width: 13%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: grey; */
+}
+
+div#about-block-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
 }
 
 div#cv-box {
@@ -431,12 +449,13 @@ div#work-box {
 }
 
 div#cv {
-  width: 80%;
+  width: 50%;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  margin-left: 5%;
+  align-content: center;
+  font-size: 125%;
 }
 
 div#cv img {
@@ -445,22 +464,23 @@ div#cv img {
 }
 
 div#cv_sidebar {
-  height: 100%;
+  height: 50%;
   display: flex;
   flex-direction: column;
-  width: 20%;
-  align-self: flex-end;
+  width: 10%;
+  align-content: center;
+  justify-content: flex-end;
 }
 
 div#cv_sidebar img {
   height: auto;
-  width: 70%;
-  margin-left: 40%;
+  width: 100%;
 }
 
+
 div#cv_body {
-  height: 95%;
-  width: 95%;
+  height: 50%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -516,8 +536,4 @@ div#logo-contact img {
   width: 44%;
   margin-top: 40%;
   margin-left: 37%;
-}
-
-div#about-block {
-  width: 20%;
 }
