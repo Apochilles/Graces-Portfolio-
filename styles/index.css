@@ -24,6 +24,10 @@ div#content-container {
   display: flex;
 }
 
+footer {
+  display: none;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -55,6 +59,10 @@ header {
   text-decoration: none;
   margin-top: 5%;
   margin-bottom: 10%;
+}
+
+header#test {
+  display: none;
 }
 
 header-contact {
@@ -261,7 +269,7 @@ div#footer-portfolio {
 
 div#about-box {
   height: 100%;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -275,7 +283,18 @@ div#about-block {
   /* background-color: grey; */
 }
 
-div#about-block-container {
+div#cv-block {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: grey; */
+}
+
+div#about-block-container,
+div#cv-block-container {
   height: 100%;
   width: 100%;
   display: flex;
@@ -334,6 +353,7 @@ div#portfolio-box a strong {
   font-family: BaskervilleItalicBT;
   font-weight: bold;
   font-size: 18px;
+  color: black;
 }
 
 .item1 {
@@ -464,19 +484,32 @@ div#cv img {
 }
 
 div#cv_sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+  align-content: flex-start;
+  justify-content: flex-end;
+}
+
+div#about_sidebar {
   height: 50%;
   display: flex;
   flex-direction: column;
   width: 10%;
-  align-content: center;
-  justify-content: flex-end;
+  align-content: flex-end;
+  justify-content: center;
 }
 
 div#cv_sidebar img {
   height: auto;
-  width: 100%;
+  width: 115%;
 }
 
+div#about_sidebar img {
+  height: auto;
+  width: 125%;
+}
 
 div#cv_body {
   height: 50%;
