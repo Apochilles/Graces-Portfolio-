@@ -402,6 +402,10 @@
     font-size: 18px;
   }
 
+  header {
+    width: 35%;
+  }
+
   contact-footer {
     margin-bottom: 70%;
   }
@@ -569,7 +573,7 @@
   }
 
   div#logo-header {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
   }
