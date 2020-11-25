@@ -619,3 +619,7 @@ sidebar a {
 Navbar__Link-toggle {
   display: none;
 }
+
+div#logo-header img {
+  max-width: 90%;
+}
