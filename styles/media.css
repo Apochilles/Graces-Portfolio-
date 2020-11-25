@@ -63,6 +63,35 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  contact-footer {
+    width: 100%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+  }
+
+  div#logo-contact {
+    /* margin-top: 10%; */
+    height: 80%;
+    margin-bottom: 70%;
+  }
+
+  div#logo-contact img {
+    width: 60%;
+    margin-bottom: 350px;
+    margin-left: 100px;
+  }
+
+  div#contact-box {
+    margin-bottom: 40%;
+    padding-left: 0%;
+    margin-left: 40%;
+    height: 10%;
+  }
+
+  div#fuck-sake.mySlides.fade img {
+    margin-left: 80px;
+  }
+
   div#cv-block {
     height: 70%;
     width: 70%;
@@ -243,7 +272,6 @@
     max-width: 80%;
     height: auto;
     display: flex;
-    padding-bottom: 100px;
   }
 
   button.openbtn {
@@ -334,7 +362,7 @@
   div#Sidebar.sidebar {
     display: flex !important;
     flex-direction: column;
-    height: 25%;
+    /* height: 25%; */
     text-align: center;
   }
 
@@ -368,6 +396,36 @@
 }
 
 @media only screen and (max-width: 667px) {
+  .navbar-logo,
+  .navbar-logo-two,
+  .navbar-logo-three {
+    font-size: 18px;
+  }
+
+  contact-footer {
+    margin-bottom: 70%;
+  }
+
+  header#test2 {
+    height: 10%;
+  }
+
+  div#logo-contact {
+    margin-bottom: 0%;
+  }
+
+  div#logo-contact img {
+    width: 120%;
+    margin-left: 0%;
+  }
+
+  div#contact-box {
+    margin-left: 25%;
+  }
+  div#fuck-sake.mySlides.fade img {
+    margin-left: 10px;
+  }
+
   div#cv-block {
     height: 70%;
     width: 100%;
@@ -386,7 +444,7 @@
   div#cv_sidebar {
     width: 20%;
     height: 10%;
-    margin-right: 75px
+    margin-right: 75px;
   }
 
   div#cv_sidebar img {
@@ -404,7 +462,7 @@
   }
 
   div#portfolio-box a strong {
-    font-size: 12px;
+    font-size: 130%;
   }
 
   .item1 {
@@ -543,7 +601,7 @@
   }
 
   div#Sidebar.sidebar a {
-    font-size: 100%;
+    font-size: 130%;
     padding: 8px 8px 8px 8px;
     height: 50px;
     text-align: center;

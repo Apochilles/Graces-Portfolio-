@@ -431,7 +431,7 @@ div#portfolio-box a strong {
 }
 
 div#contact-box {
-  padding-left: 45%;
+  padding-left: 46%;
 }
 
 div#contact-box strong {
@@ -552,11 +552,13 @@ contact-footer {
   justify-content: space-evenly;
   text-decoration: none;
   padding-top: 8%;
-  padding-left: 45%;
+  padding-left: 46%;
 }
 
 contact-footer a {
   font-size: 80%;
+  color: black;
+
 }
 
 div#logo-contact {
@@ -568,5 +570,5 @@ div#logo-contact {
 div#logo-contact img {
   width: 44%;
   margin-top: 40%;
-  margin-left: 37%;
+  margin-left: 33%;
 }
